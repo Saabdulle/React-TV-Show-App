@@ -1,0 +1,47 @@
+/* ul{
+    list-style: none;
+    text-decoration: none;
+} */
+.show-btn {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    list-style: none;
+    text-decoration: none;
+    width: 140px;
+    height: 45px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    padding-bottom: 5px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+}
+.show-btn:hover {
+    background-color: #2ee59d;
+    box-shadow: 0px 15px 20px #2ee59d66;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.desc{
+    margin-inline: 200px;
+    text-align: center;
+}
+/* Add these styles to your existing CSS file or component */
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
